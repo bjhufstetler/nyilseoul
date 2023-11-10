@@ -12,6 +12,8 @@ a {
 body {
     background-color: rgb(255,253,251);
     color: rgb(40,90,91);
+    max-width: 500px;
+    margin: auto;
 }
 
 .banner {
@@ -62,6 +64,7 @@ body {
     background-image: url('img/stack.jpeg');
     background-size: 100%;
     padding: 20px 0px 20px 0px;
+    margin-bottom: 20px;
 }
 
 .card-map {
