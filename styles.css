@@ -57,8 +57,8 @@ body {
     text-align: center;
     margin-top: 20px;
     color: rgb(255,253,251);
-    border-radius: 10px;
 }
+
 
 .card-contact {
     background-image: url('img/stack.jpeg');
@@ -74,7 +74,7 @@ body {
 
 .card-hours {
     background-image: url('img/drink.jpeg');
-    background-size: 100%;
+    background-size: 120%;
     padding: 20px 0px 20px 0px;
 }
 
@@ -113,8 +113,8 @@ body {
 
 .about {
     text-align: center;
-    width: 70%;
-    transform: translate(20%, 0%);
+    width: 100%;
+    margin: auto;
 }
 
 .about h1 {
@@ -124,6 +124,7 @@ body {
 
 .about p {
     line-height: 20px;
+    padding: 0 20% 0 20%;
 }
 
 
