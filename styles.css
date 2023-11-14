@@ -59,7 +59,6 @@ body {
     color: rgb(255,253,251);
 }
 
-
 .card-contact {
     background-image: url('img/stack.jpeg');
     background-size: 100%;
@@ -73,9 +72,13 @@ body {
 }
 
 .card-hours {
-    background-image: url('img/drink.jpeg');
-    background-size: 120%;
-    padding: 20px 0px 20px 0px;
+    position: relative;
+}
+
+.card-hours p {
+    position: absolute;
+    top: 5%;
+    right: 15%;
 }
 
 .card-hours::after {
@@ -101,8 +104,9 @@ body {
     line-height: 20px;
     font-weight: 300;
     background-color: rgb(0,0,0,0.4);
-    width: 50%;
-    transform: translateX(25%);
+    max-width: 50%;
+    width: fit-content;
+    margin: auto;
 }
 
 .card img {
